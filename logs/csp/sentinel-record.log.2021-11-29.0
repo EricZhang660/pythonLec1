@@ -1,0 +1,4 @@
+2021-11-29 08:28:33.734 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.5
+2021-11-29 08:28:33.743 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.5.idx
+2021-11-29 08:28:33.743 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-11-29
+2021-11-29 08:28:33.744 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-11-29.idx

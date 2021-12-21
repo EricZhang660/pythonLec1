@@ -1,0 +1,14 @@
+2021-12-21 10:47:34 [com.xxl.job.core.thread.JobThread#run]-[130]-[Thread-46] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-12-21 10:47:34 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[36]-[Thread-46] 定时任务开始
+2021-12-21 10:47:34 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1407540325574860802
+2021-12-21 10:47:35 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1407540718165909505
+2021-12-21 10:47:35 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1407625731255353346
+2021-12-21 10:47:36 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1407639749563039746
+2021-12-21 10:47:37 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1413049785642754049
+2021-12-21 10:47:37 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1415852778603782145
+2021-12-21 10:47:37 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1420548116199542786
+2021-12-21 10:47:37 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1427461876109565953
+2021-12-21 10:47:38 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1430340346623844354
+2021-12-21 10:47:38 [com.powershare.ibms.business.center.job.ScreenJob#stat]-[45]-[Thread-46] 大屏状态数据统计，租户: 1450736239218868225
+2021-12-21 10:47:38 [com.xxl.job.core.thread.JobThread#run]-[176]-[Thread-46] <br>----------- xxl-job job execute end(finish) -----------<br>----------- Result: handleCode=200, handleMsg = null
+2021-12-21 10:47:38 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[197]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.

@@ -1,0 +1,14 @@
+2021-12-21 10:47:41 [com.xxl.job.core.thread.JobThread#run]-[130]-[Thread-49] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-12-21 10:47:41 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[43]-[Thread-49] 定时任务开始
+2021-12-21 10:47:41 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1407540325574860802
+2021-12-21 10:47:46 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1407540718165909505
+2021-12-21 10:47:54 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1407625731255353346
+2021-12-21 10:47:59 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1407639749563039746
+2021-12-21 10:48:09 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1413049785642754049
+2021-12-21 10:48:13 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1415852778603782145
+2021-12-21 10:48:19 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1420548116199542786
+2021-12-21 10:48:24 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1427461876109565953
+2021-12-21 10:48:28 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1430340346623844354
+2021-12-21 10:48:32 [com.powershare.ibms.business.center.job.BatteryHolderStatusJob#stat]-[52]-[Thread-49] 刷线电池资产状态，租户: 1450736239218868225
+2021-12-21 10:48:37 [com.xxl.job.core.thread.JobThread#run]-[176]-[Thread-49] <br>----------- xxl-job job execute end(finish) -----------<br>----------- Result: handleCode=200, handleMsg = null
+2021-12-21 10:48:37 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[197]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.

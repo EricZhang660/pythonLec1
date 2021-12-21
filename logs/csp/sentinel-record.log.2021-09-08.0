@@ -1,0 +1,633 @@
+2021-09-08 08:45:50.469 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-06.4
+2021-09-08 08:45:50.480 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-06.4.idx
+2021-09-08 08:45:50.481 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08
+2021-09-08 08:45:50.481 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.idx
+2021-09-08 10:10:19.039 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:10:19.040 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:10:19.046 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 10:10:19.046 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:10:19.047 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:10:19.049 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:10:19.050 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:10:19.051 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:10:19.053 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:10:19.054 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:10:19.057 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:10:19.058 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:10:19.076 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:10:19.076 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:10:19.081 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:10:19.081 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:10:19.081 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:10:19.081 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:10:19.082 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:10:19.082 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:10:19.085 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:10:19.086 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:10:19.087 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:10:19.093 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:10:19.094 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:10:19.094 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:10:19.096 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:10:19.105 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 10:10:19.107 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:10:19.111 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:10:19.114 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:10:19.114 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:10:19.116 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:10:19.118 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:10:19.121 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:10:19.122 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:10:19.184 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 10:10:20.126 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07
+2021-09-08 10:10:20.127 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.idx
+2021-09-08 10:10:20.127 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.1
+2021-09-08 10:10:20.127 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.1.idx
+2021-09-08 10:10:35.994 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:10:36.073 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 10:34:36.592 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:34:36.593 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:34:36.599 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 10:34:36.599 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:34:36.601 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:34:36.603 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:34:36.604 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:34:36.606 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:34:36.608 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:34:36.609 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:34:36.614 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:34:36.615 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:34:36.633 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:34:36.633 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:34:36.639 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:34:36.640 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:34:36.640 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:34:36.640 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:34:36.641 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:34:36.641 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:34:36.646 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:34:36.647 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:34:36.648 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:34:36.657 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:34:36.657 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:34:36.657 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:34:36.660 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:34:36.675 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:34:36.678 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:34:36.685 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:34:36.689 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:34:36.689 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:34:36.692 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:34:36.694 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:34:36.697 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:34:36.698 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:34:37.704 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-06.3
+2021-09-08 10:34:37.704 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-06.3.idx
+2021-09-08 10:34:37.705 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.2
+2021-09-08 10:34:37.705 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.2.idx
+2021-09-08 10:40:46.670 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:40:46.670 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:40:46.675 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 10:40:46.675 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:40:46.676 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:40:46.678 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:40:46.679 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:40:46.680 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:40:46.682 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:40:46.683 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:40:46.687 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:40:46.688 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:40:46.704 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:40:46.704 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:40:46.709 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:40:46.709 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:40:46.709 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:40:46.709 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:40:46.710 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:40:46.710 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:40:46.712 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:40:46.714 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:40:46.714 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:40:46.720 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:40:46.720 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:40:46.720 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:40:46.722 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:40:46.730 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:40:46.732 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:40:46.736 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:40:46.738 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:40:46.738 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:40:46.740 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:40:46.742 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:40:46.744 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:40:46.746 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:40:47.751 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-06.4
+2021-09-08 10:40:47.753 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-06.4.idx
+2021-09-08 10:40:47.753 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.3
+2021-09-08 10:40:47.754 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.3.idx
+2021-09-08 10:43:07.651 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:43:07.652 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:43:07.658 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 10:43:07.658 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:43:07.659 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:43:07.662 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:43:07.663 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:43:07.664 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:43:07.665 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:43:07.666 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:43:07.670 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:43:07.671 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:43:07.688 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:43:07.689 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:43:07.694 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:43:07.694 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:43:07.695 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:43:07.695 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:43:07.695 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:43:07.695 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:43:07.698 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:43:07.699 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:43:07.700 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:43:07.706 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:43:07.706 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:43:07.706 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:43:07.708 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:43:07.717 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:43:07.719 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:43:07.722 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:43:07.726 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:43:07.726 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:43:07.728 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:43:07.730 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:43:07.733 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:43:07.734 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:43:08.745 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.1
+2021-09-08 10:43:08.747 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.1.idx
+2021-09-08 10:43:08.748 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.2
+2021-09-08 10:43:08.748 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.2.idx
+2021-09-08 10:43:19.004 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 10:43:31.710 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 10:43:32.327 INFO Add child </error> to node <sentinel_spring_web_context>
+2021-09-08 10:43:38.818 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 10:47:57.761 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:47:57.762 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:47:57.766 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 10:47:57.767 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:47:57.768 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:47:57.770 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:47:57.771 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:47:57.772 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:47:57.773 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:47:57.774 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:47:57.778 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:47:57.778 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:47:57.795 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:47:57.795 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:47:57.800 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:47:57.800 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:47:57.800 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:47:57.801 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:47:57.801 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:47:57.801 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:47:57.804 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:47:57.805 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:47:57.805 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:47:57.811 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:47:57.811 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:47:57.811 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:47:57.814 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:47:57.824 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:47:57.826 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:47:57.830 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:47:57.832 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:47:57.832 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:47:57.835 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:47:57.837 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:47:57.839 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:47:57.841 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:47:58.068 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 10:47:58.728 INFO Add child </error> to node <sentinel_spring_web_context>
+2021-09-08 10:47:58.841 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.2
+2021-09-08 10:47:58.842 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.2.idx
+2021-09-08 10:47:58.843 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.3
+2021-09-08 10:47:58.843 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.3.idx
+2021-09-08 10:48:19.027 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 10:48:38.826 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 10:50:26.964 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:50:26.965 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:50:26.973 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 10:50:26.973 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:50:26.975 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:50:26.978 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:50:26.980 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:50:26.981 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:50:26.986 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:50:26.988 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:50:26.994 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:50:26.995 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:50:27.020 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:50:27.020 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:50:27.025 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:50:27.026 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:50:27.026 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:50:27.027 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:50:27.028 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:50:27.028 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:50:27.033 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:50:27.035 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:50:27.036 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:50:27.060 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:50:27.060 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:50:27.060 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:50:27.063 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:50:27.074 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:50:27.076 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:50:27.079 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:50:27.083 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:50:27.084 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:50:27.086 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:50:27.089 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:50:27.091 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:50:27.092 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:50:27.362 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 10:50:28.063 INFO Add child </error> to node <sentinel_spring_web_context>
+2021-09-08 10:50:28.094 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.3
+2021-09-08 10:50:28.095 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.3.idx
+2021-09-08 10:50:28.096 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.4
+2021-09-08 10:50:28.096 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.4.idx
+2021-09-08 10:50:49.109 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 10:51:08.825 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 10:54:41.221 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 10:54:41.222 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 10:54:41.227 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 10:54:41.227 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 10:54:41.228 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 10:54:41.230 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 10:54:41.231 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 10:54:41.232 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 10:54:41.234 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 10:54:41.235 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 10:54:41.239 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 10:54:41.239 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:54:41.257 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 10:54:41.257 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 10:54:41.262 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 10:54:41.262 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 10:54:41.262 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:54:41.262 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 10:54:41.263 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 10:54:41.263 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 10:54:41.267 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 10:54:41.268 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 10:54:41.269 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 10:54:41.275 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 10:54:41.276 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 10:54:41.276 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 10:54:41.278 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 10:54:41.287 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 10:54:41.289 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 10:54:41.292 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 10:54:41.295 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 10:54:41.295 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 10:54:41.297 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 10:54:41.299 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 10:54:41.301 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 10:54:41.302 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 10:54:41.511 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 10:54:42.209 INFO Add child </error> to node <sentinel_spring_web_context>
+2021-09-08 10:54:42.313 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.4
+2021-09-08 10:54:42.314 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-07.4.idx
+2021-09-08 10:54:42.315 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.5
+2021-09-08 10:54:42.315 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.5.idx
+2021-09-08 10:54:49.150 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 10:55:18.865 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 11:05:10.731 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 11:05:10.731 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 11:05:10.736 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 11:05:10.736 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 11:05:10.737 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 11:05:10.740 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 11:05:10.741 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 11:05:10.742 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 11:05:10.743 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 11:05:10.744 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 11:05:10.747 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 11:05:10.748 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 11:05:10.764 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 11:05:10.764 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 11:05:10.768 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 11:05:10.768 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 11:05:10.768 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 11:05:10.769 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 11:05:10.769 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 11:05:10.770 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 11:05:10.772 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 11:05:10.774 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 11:05:10.774 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 11:05:10.782 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 11:05:10.782 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 11:05:10.782 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 11:05:10.784 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 11:05:10.795 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 11:05:10.796 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 11:05:10.800 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 11:05:10.802 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 11:05:10.802 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 11:05:10.804 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 11:05:10.807 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 11:05:10.809 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 11:05:10.810 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 11:05:11.028 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 11:05:11.814 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08
+2021-09-08 11:05:11.815 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.idx
+2021-09-08 11:05:11.815 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.6
+2021-09-08 11:05:11.815 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.6.idx
+2021-09-08 11:05:18.912 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 11:05:19.510 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 13:20:44.948 INFO Add child </tenant/getTenantById> to node <sentinel_spring_web_context>
+2021-09-08 13:40:19.043 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 13:40:19.044 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 13:40:19.049 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 13:40:19.049 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 13:40:19.051 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 13:40:19.054 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 13:40:19.055 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 13:40:19.056 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 13:40:19.057 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 13:40:19.058 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 13:40:19.062 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 13:40:19.063 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 13:40:19.079 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 13:40:19.080 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 13:40:19.084 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 13:40:19.084 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 13:40:19.085 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 13:40:19.085 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 13:40:19.085 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 13:40:19.085 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 13:40:19.088 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 13:40:19.089 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 13:40:19.090 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 13:40:19.096 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 13:40:19.096 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 13:40:19.096 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 13:40:19.098 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 13:40:19.107 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 13:40:19.108 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 13:40:19.111 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 13:40:19.114 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 13:40:19.114 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 13:40:19.116 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 13:40:19.118 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 13:40:19.120 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 13:40:19.121 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 13:40:19.219 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 13:40:20.123 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.1
+2021-09-08 13:40:20.124 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.1.idx
+2021-09-08 13:40:20.124 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.7
+2021-09-08 13:40:20.124 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.7.idx
+2021-09-08 13:40:36.768 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 13:40:36.844 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 14:04:31.908 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 14:04:31.909 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 14:04:31.914 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 14:04:31.914 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 14:04:31.916 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 14:04:31.918 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 14:04:31.919 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 14:04:31.920 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 14:04:31.922 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 14:04:31.923 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 14:04:31.927 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 14:04:31.928 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 14:04:31.946 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 14:04:31.946 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 14:04:31.950 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 14:04:31.951 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 14:04:31.951 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 14:04:31.951 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 14:04:31.951 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 14:04:31.952 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 14:04:31.954 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 14:04:31.955 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 14:04:31.956 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 14:04:31.962 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 14:04:31.962 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 14:04:31.962 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 14:04:31.964 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 14:04:31.972 INFO Add child </autoMenus/{menuId}> to node <sentinel_spring_web_context>
+2021-09-08 14:04:31.974 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 14:04:31.978 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 14:04:31.981 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 14:04:31.981 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 14:04:31.984 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 14:04:31.986 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 14:04:31.988 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 14:04:31.989 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 14:04:32.996 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-07
+2021-09-08 14:04:32.997 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-07.idx
+2021-09-08 14:04:32.998 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.5
+2021-09-08 14:04:32.998 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.5.idx
+2021-09-08 15:15:17.299 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 15:15:17.300 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 15:15:17.307 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 15:15:17.308 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 15:15:17.310 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 15:15:17.312 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 15:15:17.313 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 15:15:17.315 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 15:15:17.317 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 15:15:17.318 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 15:15:17.322 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 15:15:17.323 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:15:17.344 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:15:17.344 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 15:15:17.349 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 15:15:17.349 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 15:15:17.349 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:15:17.350 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 15:15:17.350 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:15:17.350 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 15:15:17.353 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 15:15:17.355 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 15:15:17.356 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 15:15:17.362 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 15:15:17.362 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 15:15:17.362 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 15:15:17.364 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 15:15:17.374 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 15:15:17.376 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 15:15:17.379 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 15:15:17.382 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 15:15:17.382 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 15:15:17.384 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 15:15:17.386 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 15:15:17.389 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 15:15:17.390 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 15:15:18.391 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08
+2021-09-08 15:15:18.391 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.idx
+2021-09-08 15:15:18.392 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.6
+2021-09-08 15:15:18.392 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.6.idx
+2021-09-08 15:22:08.380 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 15:22:08.381 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 15:22:08.386 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 15:22:08.387 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 15:22:08.388 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 15:22:08.390 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 15:22:08.392 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 15:22:08.393 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 15:22:08.394 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 15:22:08.395 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 15:22:08.400 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 15:22:08.401 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:22:08.419 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:22:08.419 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 15:22:08.425 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 15:22:08.425 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 15:22:08.425 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:22:08.426 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 15:22:08.426 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:22:08.426 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 15:22:08.429 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 15:22:08.430 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 15:22:08.431 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 15:22:08.437 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 15:22:08.437 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 15:22:08.437 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 15:22:08.439 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 15:22:08.448 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 15:22:08.450 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 15:22:08.453 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 15:22:08.456 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 15:22:08.456 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 15:22:08.458 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 15:22:08.460 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 15:22:08.462 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 15:22:08.463 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 15:22:09.479 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.1
+2021-09-08 15:22:09.480 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.1.idx
+2021-09-08 15:22:09.480 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.7
+2021-09-08 15:22:09.480 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.7.idx
+2021-09-08 15:29:34.428 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 15:29:34.429 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 15:29:34.434 INFO App name resolved from property csp.sentinel.app.name: aiot-tenant
+2021-09-08 15:29:34.434 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 15:29:34.435 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 15:29:34.437 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 15:29:34.438 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 15:29:34.439 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 15:29:34.440 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 15:29:34.441 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 15:29:34.445 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 15:29:34.446 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:29:34.463 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 15:29:34.463 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 15:29:34.467 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 15:29:34.467 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 15:29:34.467 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:29:34.468 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 15:29:34.468 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 15:29:34.468 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 15:29:34.470 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 15:29:34.471 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 15:29:34.472 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 15:29:34.478 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 15:29:34.478 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 15:29:34.478 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 15:29:34.481 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 15:29:34.490 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 15:29:34.492 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 15:29:34.495 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 15:29:34.497 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 15:29:34.497 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 15:29:34.499 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 15:29:34.501 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 15:29:34.503 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 15:29:34.505 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 15:29:35.510 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.2
+2021-09-08 15:29:35.511 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.2.idx
+2021-09-08 15:29:35.512 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.8
+2021-09-08 15:29:35.512 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-tenant-metrics.log.2021-09-08.8.idx
+2021-09-08 15:29:48.889 INFO Add child </tenant/getAllTenantInfo> to node <sentinel_spring_web_context>
+2021-09-08 15:29:49.583 INFO Add child </tenant/getTenantApp> to node <sentinel_spring_web_context>
+2021-09-08 15:29:55.498 INFO Add child <POST:http://aiot-authority/autoMenus/query> to node </autoMenus/query>
+2021-09-08 16:25:15.495 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 16:25:15.497 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 16:25:15.503 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 16:25:15.503 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 16:25:15.505 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 16:25:15.508 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 16:25:15.509 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 16:25:15.511 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 16:25:15.513 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 16:25:15.514 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 16:25:15.519 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 16:25:15.528 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 16:25:15.548 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 16:25:15.548 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 16:25:15.553 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 16:25:15.553 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 16:25:15.554 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 16:25:15.554 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 16:25:15.554 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 16:25:15.555 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 16:25:15.558 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 16:25:15.559 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 16:25:15.560 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 16:25:15.567 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 16:25:15.567 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 16:25:15.568 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 16:25:15.569 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 16:25:15.579 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 16:25:15.581 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 16:25:15.584 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 16:25:15.587 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 16:25:15.587 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 16:25:15.590 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 16:25:15.592 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 16:25:15.595 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 16:25:15.596 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 16:25:16.599 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.2
+2021-09-08 16:25:16.600 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.2.idx
+2021-09-08 16:25:16.600 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.8
+2021-09-08 16:25:16.600 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.8.idx
+2021-09-08 17:19:55.475 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-08 17:19:55.476 INFO Add child <sentinel_spring_web_context> to node <machine-root>
+2021-09-08 17:19:55.483 INFO App name resolved from property csp.sentinel.app.name: aiot-authority
+2021-09-08 17:19:55.483 INFO [SentinelConfig] Application type resolved: 0
+2021-09-08 17:19:55.485 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-08 17:19:55.488 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-08 17:19:55.489 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-08 17:19:55.490 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-08 17:19:55.493 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-08 17:19:55.495 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-08 17:19:55.500 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-08 17:19:55.501 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 17:19:55.525 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-08 17:19:55.525 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-08 17:19:55.531 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured or not available
+2021-09-08 17:19:55.531 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-08 17:19:55.531 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 17:19:55.532 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-08 17:19:55.532 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-08 17:19:55.532 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-08 17:19:55.536 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-08 17:19:55.537 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-08 17:19:55.538 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-08 17:19:55.547 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-08 17:19:55.547 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-08 17:19:55.547 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-08 17:19:55.549 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2021-09-08 17:19:55.560 INFO Add child </autoMenus/query> to node <sentinel_spring_web_context>
+2021-09-08 17:19:55.562 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-08 17:19:55.566 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-08 17:19:55.568 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-08 17:19:55.569 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-08 17:19:55.571 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-08 17:19:55.573 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-08 17:19:55.576 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-08 17:19:55.577 INFO [MetricExtensionProvider] No existing MetricExtension found
+2021-09-08 17:19:56.579 INFO [MetricWriter] Removing metric file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.3
+2021-09-08 17:19:56.580 INFO [MetricWriter] Removing metric index file: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.3.idx
+2021-09-08 17:19:56.581 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.9
+2021-09-08 17:19:56.581 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/aiot-authority-metrics.log.2021-09-08.9.idx

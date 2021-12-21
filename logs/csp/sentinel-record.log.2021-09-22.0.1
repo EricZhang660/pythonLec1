@@ -1,0 +1,90 @@
+2021-09-22 09:10:15.938 INFO App name resolved: ibms-admin
+2021-09-22 09:10:15.939 INFO [SentinelConfig] JVM parameter overrides csp.sentinel.charset: UTF-8 -> UTF-8
+2021-09-22 09:10:15.940 INFO [SentinelConfig] JVM parameter overrides csp.sentinel.flow.cold.factor: 3 -> 3
+2021-09-22 09:10:15.940 INFO [SentinelConfig] Application type resolved: 0
+2021-09-22 09:10:15.940 INFO Add child <sentinel_default_context> to node <machine-root>
+2021-09-22 09:10:15.940 INFO Add child <sentinel_web_servlet_context> to node <machine-root>
+2021-09-22 09:10:15.948 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2021-09-22 09:10:15.951 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2021-09-22 09:10:15.953 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2021-09-22 09:10:15.955 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2021-09-22 09:10:15.958 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc
+2021-09-22 09:10:15.960 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc
+2021-09-22 09:10:15.966 INFO [SpiLoader] Found CommandCenter SPI: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter with order 2147483647
+2021-09-22 09:10:15.967 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-22 09:10:15.999 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2021-09-22 09:10:15.999 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2021-09-22 09:10:16.005 WARNING [SimpleHttpHeartbeatSender] Dashboard server address not configured
+2021-09-22 09:10:16.005 INFO [SimpleHttpHeartbeatSender] Default console address list retrieved: []
+2021-09-22 09:10:16.005 INFO [SpiLoader] Found HeartbeatSender SPI: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender with order 2147483647
+2021-09-22 09:10:16.005 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-22 09:10:16.005 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2021-09-22 09:10:16.006 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2021-09-22 09:10:16.006 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2021-09-22 09:10:16.011 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.client.init.DefaultClusterClientInitFunc with order 0
+2021-09-22 09:10:16.013 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2021-09-22 09:10:16.014 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2021-09-22 09:10:16.024 INFO [TokenServiceProvider] Global token service resolved: com.alibaba.csp.sentinel.cluster.flow.DefaultTokenService
+2021-09-22 09:10:16.024 INFO [DefaultClusterServerInitFunc] Default entity codec and processors registered
+2021-09-22 09:10:16.024 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.cluster.server.init.DefaultClusterServerInitFunc with order 2147483647
+2021-09-22 09:10:16.032 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.HotParamSlotChainBuilder
+2021-09-22 09:10:16.038 INFO Add child </region/listRegionWithTree> to node <sentinel_web_servlet_context>
+2021-09-22 09:10:16.043 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2021-09-22 09:10:16.043 INFO [ParamFlowRuleManager] Parameter flow rules received: {}
+2021-09-22 09:10:16.047 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2021-09-22 09:10:16.049 INFO [AuthorityRuleManager] Load authority rules: {}
+2021-09-22 09:10:16.051 INFO [FlowRuleManager] Flow rules loaded: {}
+2021-09-22 09:10:16.055 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2021-09-22 09:10:16.058 INFO [DegradeRuleManager] Degrade rules loaded: {}
+2021-09-22 09:10:16.062 INFO [MetricExtensionProvider] MetricExtension resolved, size=0
+2021-09-22 09:10:17.063 INFO [MetricWriter] New metric file created: /Users/mymac/logs/csp/ibms-admin-metrics.log.2021-09-22
+2021-09-22 09:10:17.064 INFO [MetricWriter] New metric index file created: /Users/mymac/logs/csp/ibms-admin-metrics.log.2021-09-22.idx
+2021-09-22 09:11:53.646 INFO Add child </user/getLoginUser/sgsmev> to node <sentinel_web_servlet_context>
+2021-09-22 09:23:15.043 INFO Add child </region/listAllRegion> to node <sentinel_web_servlet_context>
+2021-09-22 09:31:08.463 INFO Add child </config/list/warningLevelKey> to node <sentinel_web_servlet_context>
+2021-09-22 09:32:51.125 INFO Add child </config/list/materialKey> to node <sentinel_web_servlet_context>
+2021-09-22 09:32:51.234 INFO Add child </config/list/manufacturerKey> to node <sentinel_web_servlet_context>
+2021-09-22 09:32:51.341 INFO Add child </config/list/operatorKey> to node <sentinel_web_servlet_context>
+2021-09-22 09:32:51.417 INFO Add child </region/mapTypeRegionlist> to node <sentinel_web_servlet_context>
+2021-09-22 09:32:51.423 INFO Add child <GET:http://aiot-tenant/tenant/getTenantApp> to node </region/mapTypeRegionlist>
+2021-09-22 09:34:18.906 INFO Add child </config/getConfigs/002318e9-7fa4-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.076 INFO Add child </config/getConfigs/10649655-6d82-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.211 INFO Add child </config/getConfigs/1e6495f4-5564-11eb-84a5-fa163ed928e6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.350 INFO Add child </config/getConfigs/2e01004e-7f0f-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.430 INFO Add child </config/getConfigs/391a1ffc-7896-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.636 INFO Add child </config/getConfigs/479ab2ef-6e42-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.756 INFO Add child </config/getConfigs/515ca7fd-5b8e-11eb-84a5-fa163ed928e6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:19.936 INFO Add child </config/getConfigs/5c42c5e9-597f-11eb-84a5-fa163ed928e6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.064 INFO Add child </config/getConfigs/5fece581-03c2-11ec-ba35-00163e223fb6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.169 INFO Add child </config/getConfigs/69e89e85-6d81-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.290 INFO Add child </config/getConfigs/6f440071-1f2c-11eb-b1e6-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.396 INFO Add child </config/getConfigs/6f501573-1f2c-11eb-b1e6-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.540 INFO Add child </config/getConfigs/781e7787-6738-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.675 INFO Add child </config/getConfigs/7d9102fd-19c2-11eb-b1e6-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.793 INFO Add child </config/getConfigs/98be1d05-6738-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:20.913 INFO Add child </config/getConfigs/9fdf8809-03f7-11ec-ba35-00163e223fb6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.038 INFO Add child </config/getConfigs/b4d0cdde-e90a-11eb-ba35-00163e223fb6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.181 INFO Add child </config/getConfigs/bf2adeff-69d5-11ea-99eb-e86a648628e8> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.297 INFO Add child </config/getConfigs/bf636607-69d5-11ea-99eb-e86a648628e8> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.436 INFO Add child </config/getConfigs/bf9b60d2-69d5-11ea-99eb-e86a648628e8> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.546 INFO Add child </config/getConfigs/ce6908b9-6d7e-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.661 INFO Add child </config/getConfigs/d0770303-5a04-11eb-84a5-fa163ed928e6> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.770 INFO Add child </config/getConfigs/d5baafce-aec9-11ea-9e30-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.889 INFO Add child </config/getConfigs/e4eb9a04-6a9b-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:34:21.998 INFO Add child </config/getConfigs/ec8489f3-6425-11ea-a7f1-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:39:15.431 INFO Add child </config/getConfigs/46130d09-c10d-11ea-9e30-00163e0cb6be> to node <sentinel_web_servlet_context>
+2021-09-22 09:46:31.332 INFO Add child </user/getLoginUserType> to node <sentinel_web_servlet_context>
+2021-09-22 09:46:32.858 INFO Add child </region/listRegion/0> to node <sentinel_web_servlet_context>
+2021-09-22 10:00:11.020 INFO Add child </user> to node <sentinel_web_servlet_context>
+2021-09-22 11:41:26.410 INFO Add child </config/getConfigs/515a3517-5b8e-11eb-84a5-fa163ed928e6> to node <sentinel_web_servlet_context>
+2021-09-22 13:38:21.171 INFO Add child </v2/login> to node <sentinel_web_servlet_context>
+2021-09-22 13:38:21.194 INFO Add child <POST:http://authorization-server/oauth/token> to node </v2/login>
+2021-09-22 13:42:44.044 INFO Add child </region/getByCode/> to node <sentinel_web_servlet_context>
+2021-09-22 13:42:45.088 INFO Add child </region/getByCode/1308> to node <sentinel_web_servlet_context>
+2021-09-22 13:47:41.061 INFO Add child </region/getByCode/13> to node <sentinel_web_servlet_context>
+2021-09-22 15:27:59.747 INFO Add child </user/getLoginUser/jygov> to node <sentinel_web_servlet_context>
+2021-09-22 15:28:01.128 INFO Add child </config/list/bikeIllegalParkStatus> to node <sentinel_web_servlet_context>
+2021-09-22 15:43:49.393 INFO Add child </config/list/bikeStatus> to node <sentinel_web_servlet_context>
+2021-09-22 15:49:30.985 INFO Add child </config/list/bikeOperator> to node <sentinel_web_servlet_context>
+2021-09-22 15:53:21.757 INFO Add child </user/getLoginUser/xinghe> to node <sentinel_web_servlet_context>
+2021-09-22 15:54:46.619 INFO Add child </user/getLoginUser/biketest> to node <sentinel_web_servlet_context>

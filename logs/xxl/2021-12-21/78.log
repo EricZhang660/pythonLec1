@@ -1,0 +1,6 @@
+2021-12-21 10:47:51 [com.xxl.job.core.thread.JobThread#run]-[130]-[Thread-34] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2021-12-21 10:47:51 [com.powershare.ibms.business.job.service.impl.JobServiceImpl#copyBatteryInfoToHive]-[103]-[Thread-34] 定时任务开始
+2021-12-21 10:48:08 [com.powershare.ibms.business.job.service.impl.JobServiceImpl#copyBatteryInfoToHive]-[106]-[Thread-34] Total battery pack info is :179628
+2021-12-21 10:48:08 [com.powershare.ibms.business.job.service.impl.JobServiceImpl#copyBatteryInfoToHive]-[114]-[Thread-34] copyBatteryInfoToHive exception....Operation not supported
+2021-12-21 10:48:08 [com.xxl.job.core.thread.JobThread#run]-[176]-[Thread-34] <br>----------- xxl-job job execute end(finish) -----------<br>----------- Result: handleCode=200, handleMsg = null
+2021-12-21 10:48:08 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[197]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
